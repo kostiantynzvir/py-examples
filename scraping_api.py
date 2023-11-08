@@ -2,7 +2,6 @@ from flask import Flask, request, jsonify
 from bs4 import BeautifulSoup
 import requests
 from waitress import serve
-import logging
 
 app = Flask(__name__)
 
